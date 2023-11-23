@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #71da776b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.logo img {
+    width: 150px; 
+    border-radius: 50%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin:  20px;
+}
+
+.menu li a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li a:hover {
+    color: #eeede7; 
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    height: 50vh;
+    
+}
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduction h2 {
+    color: #333;
+}
+
+.introduction p {
+    color: #666;
+}
+
+
+.event-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.event-images img {
+    width: 30%; 
+    border-radius: 8px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Destacados img {
+    width: 500px; 
+    height: 200px; 
+    margin-bottom: 10px; 
+}
+
